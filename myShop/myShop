@@ -1,0 +1,8 @@
+create database myShop;
+use myShop;
+create table product (
+id varchar(20) primary key,
+title varchar(50) not null,
+content varchar(50) not null,
+price varchar(20) not null
+);

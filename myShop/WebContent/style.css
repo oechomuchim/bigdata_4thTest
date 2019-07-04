@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+a {
+	text-decoration: none;
+}
+
+tr {
+	width: 600px;
+}
+
+#insert_table {
+	border: 1px solid #000000;
+}
+
+#update_table {
+	border: 1px solid #000000;
+}
+
+#selectAll_table {
+	border-collapse: collapse;
+	border: 1px solid #000000;
+}
+
+#selectJsp_table {
+	border-collapse: collapse;
+	border: 1px solid #000000;
+	width: 200px;
+}

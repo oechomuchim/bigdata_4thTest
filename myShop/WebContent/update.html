@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+	<center>
+	<h1>상품 수정</h1>
+	<table id="main_table">
+			<tr>
+				<a href="main.jsp">홈 | </a>
+			</tr>
+			<tr>
+				<a href="insert.html">상품 등록 | </a>
+			</tr>
+			<tr>
+				<a href="select.html">상품 검색 | </a>
+			</tr>
+			<tr>
+				<a href="selectAll.jsp">상품 전체 검색 | </a>
+			</tr>
+			<tr>
+				<a href="update.html">상품 수정 | </a>
+			</tr>
+			<tr>
+				<a href="delete.html">상품 삭제</a>
+			</tr>
+		</table>
+		
+		<form action="update.jsp">
+		<table id="update_table">
+			<tr>
+				<td>수정할 상품 아이디</td>
+				<td><input type="text" name="id"></td>
+			</tr>
+			<tr>
+				<td>수정할 상품 설명 제목</td>
+				<td><input type="text" name="title"></td>
+			</tr>
+			<tr>
+				<td>수정할 상품 설명 내용</td>
+				<td><input type="text" name="content"></td>
+			</tr>
+			<tr>
+				<td>수정할 상품 가격</td>
+				<td><input type="text" name="price"></td>
+			</tr>
+		</table>
+			<br>
+			<button type="submit">수정</button>
+		</form>
+	</center>	
+	</body>
+</html>
